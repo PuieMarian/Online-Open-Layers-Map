@@ -1,0 +1,25 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "author": "Puie Marian",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2",
+    "core-js": "^3.15.1",
+    "jquery": "^3.6.0",
+    "ol": "^6.5.0",
+    "ol-layerswitcher": "^3.8.3",
+    "proj4": "^2.7.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4"
+  }
+}
